@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN FORM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body class = "flex center">
+	<form class = "form flex">
+		<div class = "container flex flex_column">
+			<div class = "header flex flex_row center">
+				<div>Sign in</div>
+				<div class ="close">
+					<div class="left"></div>
+					<div class="right"></div>
+				</div>
+			</div>
+			<div class = "content">
+				<div class = "flex flex_column">
+					<input type="text" placeholder="mail@example.com" class="mail">
+					<input type="password" placeholder="password" class="password"> 
+					<input type="submit" value="SIGN IN">
+					<div class = "forgot flex flex_row">
+						<a href="#">Forgot your password?</a>
+						<a href="#">Register!</a>
+					</div>
+					<div class = "line flex flex_row center">
+						<div class="break"></div>
+						<p>OR</p>
+						<div class="break"></div>
+					</div>	
+                    <i>Login with social media Apps</i>
+                    <div class="socialmedia">
+                        <a href="#" class="fa fa-facebook" id="fb"></a>
+                        <a href="#" class="fa fa-twitter" id="twitter"></a>
+                        <a href="#" class="fa fa-google" id="google"></a>
+                    </div>
+                    <input type="submit" value="EPAM LOGIN" id="epam">
+				</div>
+			</div>	
+		</div>
+	</form>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
